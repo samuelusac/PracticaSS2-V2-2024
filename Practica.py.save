@@ -1,0 +1,17 @@
+import pandas as pd
+
+#Extraccion
+
+## Archivo local
+
+
+print("Se cargo el archivo Local:")
+
+
+
+## Archivo remoto
+
+
+df = pd.read_csv('index.csv')
+
+print(df.shape)
